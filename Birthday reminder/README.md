@@ -8,16 +8,17 @@ Are you tired of forgetting about your family member´s birthdays and namedays? 
 
 This code sends you an email reminder whenever a person from your database is approaching. At first, it will notify you 7 days prior to give you some time to order a present or two. Then it also reminds you to send your dear person a message on their special day!
 
-For security purposes I implemented TLS and used all emails and passwords as environmental variables stored in a .env file.
+For security purposes I implemented TLS and used all emails and passwords as environmental variables stored in a .env file. Never put your real password anywhere! To work with gmail, without using your real password, set up an [app password](https://support.google.com/mail/answer/185833?hl=en).
+
 
 ## ⚙️ Languages or Frameworks Used
 
-To make this work you need to make sure to have python and pandas module installed on your PC. I decided to use this module to get some practical experience with its data manipulation but feel free to use a different approach of your liking.
+To make this work you need to make sure to have python and modules pandas and dotenv installed on your PC. I decided to use this module to get some practical experience with its data manipulation but feel free to use a different approach of your liking.
 
-I used pip to install this module:
-[<img src="/Birthday reminder/assets/pandas_install.png" align="center">](https://pandas.pydata.org/docs/getting_started/install.html)
+I used [PIP](https://www.geeksforgeeks.org/python/python-pip) to install those modules. To install, open your terminal and run:
+    pip install [pandas](https://www.geeksforgeeks.org/python/how-to-install-python-pandas-on-windows-and-linux)
+    pip install [python-dotenv](https://www.geeksforgeeks.org/python/how-to-install-python-dotenv-in-python)
 
-Other options can be found here: https://pandas.pydata.org/docs/getting_started/install.html
 
 ## 🌟 How to run
 
